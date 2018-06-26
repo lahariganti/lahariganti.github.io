@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: lganti
+repository: https://github.com/lahariganti.github.io
+url: https://lahariganti.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: dark # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+email: gplahari@gmail.com
+
+navigation:
+  - text: home
+    url: /index
+  - text: whoami
+    url: /whoami
+  - text: current 
+    url: /current
+  - text: projects
+    url: /projects
+  - text: live
+    url: /live
+
+permalink: /404.html
+
+projects:
+  - name: pi-experiments
+    description: creating music with ruby 
+    link: https://github.com/lahariganti/piExperiments.git
+    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
+  - name: pi-experiments
+    description: creating music with ruby 
+    link: https://github.com/lahariganti/piExperiments.git
+    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
+  - name: pi-experiments
+    description: creating music with ruby 
+    link: https://github.com/lahariganti/piExperiments.git
+    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
+  - name: pi-experiments
+    description: creating music with ruby 
+    link: https://github.com/lahariganti/piExperiments.git
+    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
+    
+social:
+  - service: github
+    username: lahariganti
+    link: https://github.com/lahariganti
+  - service: twitter
+    username: burpingushi
+    link: https://twitter.com/burpingushi
+
+# Plugins
+gems:
+  - jekyll-seo-tag
+  - jekyll-assets
+  - bootstrap-sass
+  - uglifier
+

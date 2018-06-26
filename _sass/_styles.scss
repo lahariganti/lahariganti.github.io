@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300&effect=anaglyph');
+
+.t-hackcss {  // Main prefix to avoid collisions
+
+	// navigation.html
+	&-navigation {
+		padding-bottom: 60px;
+	}
+	
+	&-menu {
+		text-align: left;
+		text-decoration: none !important;
+		a {
+			color: #F80000;
+			text-decoration: none;
+			border-bottom: none;
+		}
+		a:hover {
+			background-color: transparent;;
+		}
+	}
+
+	&-menu-item {
+		padding-right: 5%;
+	}
+	
+	&-post-title {
+		font-size: 14pt;
+		color: #C2B590;
+	}
+
+	&-post-content {
+		font-size: 9pt;
+		font-weight: light;
+	}
+
+	&-media-heading
+	{
+		font-size: 8pt;
+	}
+
+	@at-root .hack &-navigation-heading {
+		padding-top: 20px;
+	}
+
+	// footer.html
+
+	@at-root body &-footer {
+		padding-bottom: $spacing-unit;
+		color: #ffffff !important;
+	}
+	
+	&-footer {
+		font-size: 8pt;
+		a {	
+			color: #777B6C;
+			border-bottom: none;
+		}
+		a:hover {
+			background-color: transparent;
+		}
+	}
+	
+	&-social {
+		display: inline-block;
+	}
+
+	&-social + &-social {
+		padding-left: $spacer-tool;
+	}
+
+	&-sm-reversed-grid.grid {
+		@include media-query($on-palm) {
+			flex-direction: column-reverse;
+		}
+	}
+
+	&-icon {
+		display: inline-block;
+		vertical-align: middle;
+		width: $icon-size;
+		height: $icon-size;
+
+		> svg {
+			width: $icon-size;
+		}
+	}
+
+	// examples.html
+
+	&-media {
+		margin-bottom: 1.25rem;
+	}
+
+	&-media-shift {
+		max-width: $image-size;
+	}
+
+	&-media-image {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	&-cards {
+		flex-wrap: wrap;
+		@include media-query($on-palm) {
+			flex-wrap: nowrap;
+		}
+	}
+
+	&-cards-cell {
+		padding-bottom: $spacing-unit;
+		padding-right: $spacing-unit;
+	}
+
+	&-cards-text {
+		margin: 0;
+		font-weight: 100;
+		text-align: left;
+	}
+
+	&-cards-image {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	&-card-header {
+		text-align: left;
+		a {
+			color: #C2B590;
+			border-bottom: 0px;
+		}
+		a:hover {
+			background-color: transparent;
+		}
+	}
+}
+
+// custom additions
+
+img#face {
+	width: 50%;
+	height: auto;
+}
+
+#info {
+	text-align: justify;
+}
+
+img.show {
+	width: 100%;
+	max-height: 300px;
+}
+
+
+p#wut {	
+	font-weight: 100;
+	letter-spacing: 0.5px;
+}
+
+a#cv {
+	letter-spacing: 1px;
+	color: #0089C1;
+	border-bottom: none;
+	background-color: transparent;
+}
+
+
+
+
