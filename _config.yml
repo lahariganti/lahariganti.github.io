@@ -28,8 +28,8 @@ navigation:
     url: /index
   - text: whoami
     url: /whoami
-  - text: current 
-    url: /current
+  # - text: current 
+  #   url: /current
   - text: projects
     url: /projects
   - text: live
