@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lganti</title>
+    <description></description>
+    <link>https://lahariganti.github.io</link>
+    <atom:link href="https://lahariganti.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 28 Dec 2018 22:38:05 -0800</pubDate>
+    <lastBuildDate>Fri, 28 Dec 2018 22:38:05 -0800</lastBuildDate>
+    <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>C</title>
+        <description>&lt;!-- ---
+layout: post
+title: inode
+date: 180608
+categories: linux
+short_description: learnings
+---
+
+
+stores metadata and data about where metadata is located on storage media
+&lt;br&gt;
+creation depends on specific file system
+&lt;br&gt;
+represented as an integer
+
+hard link points toinode; soft link to name
+
+
+
+
+ --&gt;
+</description>
+        <pubDate>Wed, 11 Apr 2018 00:00:00 -0700</pubDate>
+        <link>https://lahariganti.github.io/404.html</link>
+        <guid isPermaLink="true">https://lahariganti.github.io/404.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
