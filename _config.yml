@@ -58,6 +58,10 @@ social:
   - service: twitter
     username: burpingushi
     link: https://twitter.com/burpingushi
+  - service: twitter
+    username: burpingushi
+    link: https://twitter.com/burpingushi
+
 
 # Plugins
 gems:
