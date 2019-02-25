@@ -4,14 +4,14 @@
 
 	// navigation.html
 	&-navigation {
-		padding-bottom: 60px;
+		padding: 60px 0px 60px 5px;
 	}
 	
 	&-menu {
 		text-align: left;
 		text-decoration: none !important;
 		a {
-			color: #50A467;
+			color: #212121;
 			text-decoration: none;
 			border-bottom: none;
 		}
@@ -26,7 +26,7 @@
 	
 	&-post-title {
 		font-size: 14pt;
-		color: #50A467;
+		color: #212121;
 	}
 
 	&-post-content {
@@ -53,7 +53,7 @@
 	&-footer {
 		font-size: 8pt;
 		a {	
-			color: #777B6C;
+			color: #212121 !important;
 			border-bottom: none;
 		}
 		a:hover {
@@ -104,6 +104,7 @@
 	
 	&-cards {
 		flex-wrap: wrap;
+
 		@include media-query($on-palm) {
 			flex-wrap: nowrap;
 		}
@@ -128,9 +129,10 @@
 	}
 
 	&-card-header {
+		background-color: #212121 !important;
 		text-align: left;
 		a {
-			color: #C2B590;
+			color: #ffffff;
 			border-bottom: 0px;
 		}
 		a:hover {
@@ -162,7 +164,7 @@ p#wut {
 }
 
 p.keyword {
-	color: #777B6C;
+	color: #212121;
 }
 
 #right {
