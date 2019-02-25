@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
-
-
-.t-hackcss {  // Main prefix to avoid collisions
-
-	// navigation.html
+.t-hackcss { 
 	&-navigation {
 		padding: 60px 0px 60px 5px;
 	}
@@ -44,8 +39,6 @@
 	@at-root .hack &-navigation-heading {
 		padding-top: 20px;
 	}
-
-	// footer.html
 
 	@at-root body &-footer {
 		padding-bottom: $spacing-unit;
@@ -88,7 +81,6 @@
 		}
 	}
 
-	// examples.html
 
 	&-media {
 		margin-bottom: 1.25rem;
@@ -143,10 +135,11 @@
 	}
 }
 
-// custom additions
 
 html, body {
-	font-family: 'Roboto Mono', monospace !important;
+	font-family: system-ui;
+	font-size: 9pt !important;
+	background-color: #EBEBEB !important;
 }
 
 img#face {
@@ -163,11 +156,6 @@ img.show {
 	max-height: 300px;
 }
 
-
-p#wut {	
-	font-weight: 100;
-	letter-spacing: 0.5px;
-}
 
 p.keyword {
 	color: #212121;
