@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300&effect=anaglyph');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
 
 .t-hackcss {  // Main prefix to avoid collisions
 
@@ -142,6 +144,10 @@
 }
 
 // custom additions
+
+html, body {
+	font-family: 'Roboto Mono', monospace !important;
+}
 
 img#face {
 	width: 50%;
