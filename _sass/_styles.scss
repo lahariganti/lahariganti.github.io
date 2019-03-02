@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .t-hackcss { 
 	&-navigation {
@@ -138,8 +139,12 @@
 
 html, body {
 	font-family: system-ui;
+	background-color: #FFFFFF !important;
 	font-size: 9pt !important;
-	background-color: #EBEBEB !important;
+}
+
+p {
+	font-weight: lighter;
 }
 
 img#face {

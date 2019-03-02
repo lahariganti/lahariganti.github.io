@@ -28,8 +28,6 @@ navigation:
     url: /index
   - text: whoami
     url: /whoami
-  - text: keywords
-    url: /keywords
 
 permalink: /404.html
 
@@ -56,8 +54,8 @@ social:
     username: lahariganti
     link: https://github.com/lahariganti
   - service: twitter
-    username: burpingushi
-    link: https://twitter.com/burpingushi
+    username: lahariganti
+    link: https://twitter.com/lahariganti
 
 
 
