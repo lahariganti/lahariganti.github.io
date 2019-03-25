@@ -9,7 +9,7 @@
 		text-align: left;
 		text-decoration: none !important;
 		a {
-			color: #212121;
+			color: #ffffff;
 			text-decoration: none;
 			border-bottom: none;
 		}
@@ -24,7 +24,7 @@
 	
 	&-post-title {
 		font-size: 14pt;
-		color: #212121;
+		color: #ffffff;
 	}
 
 	&-post-content {
@@ -49,7 +49,7 @@
 	&-footer {
 		font-size: 8pt;
 		a {	
-			color: #212121 !important;
+			color: #ffffff !important;
 			border-bottom: none;
 		}
 		a:hover {
@@ -113,7 +113,8 @@
 	&-cards-text {
 		margin: 0;
 		font-weight: 100;
-		text-align: center;
+		text-align: left;
+		color: #000000;
 	}
 
 	&-cards-image {
@@ -124,7 +125,7 @@
 	}
 
 	&-card-header {
-		background-color: #212121 !important;
+		background-color: #000000 !important;
 		text-align: left;
 		a {
 			color: #ffffff;
@@ -139,12 +140,14 @@
 
 html, body {
 	font-family: system-ui;
-	background-color: #FFFFFF !important;
+	background-color: #000000 !important;
+	color: #ffffff !important;
 	font-size: 9pt !important;
 }
 
-p {
+p, li {
 	font-weight: lighter;
+	color: #000000 !important;
 }
 
 img#face {
@@ -162,10 +165,6 @@ img.show {
 }
 
 
-p.keyword {
-	color: #212121;
-}
-
 #right {
 	text-align: right;
 	float: right;
@@ -173,4 +172,15 @@ p.keyword {
 
 .social {
 	text-align: center;
+}
+
+.card-content {
+	background-color: #ffffff !important;
+}
+
+#inode, #kernel, #mdd {
+	width: 120px;
+	height: auto;
+	display: block;
+	margin: auto;
 }
