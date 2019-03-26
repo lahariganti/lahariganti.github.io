@@ -1,0 +1,36 @@
+---
+layout: sonicpi
+permalink: music
+---
+
+<section>
+	archive: <a href="https://www.facebook.com/cyberia.io/" target="_blank">live experiments</a>
+	<br>
+	music on github: <a href="https://github.com/lahariganti/piExperiments" target="_blank">piExperiments</a>
+</section>
+<br>
+<br>
+
+<section class="ms">
+ <div class="grid t-hackcss-cards">
+		{% for m in site.music %}
+		<div class="cell -1of12 t-hackcss-cards-cell">
+			<div class="card">
+				<header class="card-header"> <a href="{{ m.url }}" title="{{ m.name }}" target="_blank">
+					{{ m.name }}
+				</a></header>
+				<div class="card-content">
+					<div class="inner">
+						<iframe width="200" height="200" frameBorder="0"
+							src="{{m.url}}">
+						</iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% endfor %}
+
+	</div>
+</section>
+
