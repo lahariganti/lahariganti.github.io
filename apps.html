@@ -3,35 +3,80 @@ layout: iOS
 permalink: apps
 ---
 
+<section>
+	<p>all clones built to learn specific components can be found <a href="">here</a><br>
+	(audible, twitter, facebook, twitter, instagram, tinder)</p>
+</section>
+
+<br>
+
+<h1>on appstore [WIP]</h1>
+<section class="apps">
+<!--  <div class="grid t-hackcss-cards">
+		{% for app in site.apps %}
+		<div class="cell -3of12 t-hackcss-cards-cell">
+			<div class="card">
+				<header class="card-header"> <a href="{{ app.url }}" title="{{ app.name }}" target="_blank">
+								 {{ app.name }}
+							 </a></header>
+				<div class="card-content">
+					<div class="inner">
+
+						{% if app.image %}
+						<img src="/images/{{ app.image }}.png" class="t-hackcss-cards-image"
+								 alt="{{ app.name }}"
+								 title="{{ app.name }}" / id="appIcon">
+						{% endif %}
+						<br>
+						<p class="t-hackcss-cards-text">{{ app.description }}</p>
+						<br>
+						<p class="t-hackcss-cards-link">
+							{{ app.details }}
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% endfor %}
+
+	</div> -->
+</section>
+
+<br>
+<br>
+
+<h1>not on appstore</h1>
 <section class="apps">
  <div class="grid t-hackcss-cards">
-    {% for app in site.apps %}
-    <div class="cell -3of12 t-hackcss-cards-cell">
-      <div class="card">
-        <header class="card-header"> <a href="{{ app.url }}" title="{{ app.name }}" target="_blank">
-                 {{ app.name }}
-               </a></header>
-        <div class="card-content">
-          <div class="inner">
+		{% for app in site.apps %}
+		<div class="cell -3of12 t-hackcss-cards-cell">
+			<div class="card">
+				<header class="card-header"> <a href="{{ app.url }}" title="{{ app.name }}" target="_blank">
+								 {{ app.name }}
+							 </a></header>
+				<div class="card-content">
+					<div class="inner">
 
-            {% if app.image %}
-            <img src="/images/{{ app.image }}.png" class="t-hackcss-cards-image"
-                 alt="{{ app.name }}"
-                 title="{{ app.name }}" / id="appIcon">
-            {% endif %}
-            <br>
-            <p class="t-hackcss-cards-text">{{ app.description }}</p>
-            <br>
-            <p class="t-hackcss-cards-link">
-              {{ app.details }}
-            </p>
+						{% if app.image %}
+						<img src="/images/{{ app.image }}.png" class="t-hackcss-cards-image"
+								 alt="{{ app.name }}"
+								 title="{{ app.name }}" / id="appIcon">
+						{% endif %}
+						<br>
+						<p class="t-hackcss-cards-text">{{ app.description }}</p>
+						<br>
+						<p class="t-hackcss-cards-link">
+							{{ app.details }}
+						</p>
 
-          </div>
-        </div>
-      </div>
-    </div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    {% endfor %}
+		{% endfor %}
 
-  </div>
+	</div>
 </section>
