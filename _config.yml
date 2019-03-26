@@ -77,6 +77,13 @@ apps:
     image: flower
     details: image recognition app
 
+webapps:
+  - name: furierit
+    description: automate trading
+    url: https://github.com/lahariganti/furierit
+    image: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80
+    details: Ruby & R on Rails
+
 social:
   - service: github
     username: lahariganti
