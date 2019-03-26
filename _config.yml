@@ -18,7 +18,7 @@ sass:
   style: compressed
 
 # Theme settings
-theme_mode: standard # choices are: 'dark', 'standard', 'markdown'
+theme_mode: dark # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 email: gplahari@gmail.com
@@ -29,26 +29,54 @@ navigation:
   - text: whoami
     url: /whoami
 
+ios_navigation:
+  - text: home
+    url: /index
+
 permalink: /404.html
 
-projects:
-  - name: pi-experiments
-    description: creating music with ruby 
-    link: https://github.com/lahariganti/piExperiments.git
-    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
-  - name: pi-experiments
-    description: creating music with ruby 
-    link: https://github.com/lahariganti/piExperiments.git
-    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
-  - name: pi-experiments
-    description: creating music with ruby 
-    link: https://github.com/lahariganti/piExperiments.git
-    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
-  - name: pi-experiments
-    description: creating music with ruby 
-    link: https://github.com/lahariganti/piExperiments.git
-    image: http://www.sonicpiliveandcoding.com/s/sonic_pi_wired_high_res.jpg
-    
+apps:
+  - name: isItColdOutside
+    description: CLLocation, openweather API
+    url: https://github.com/lahariganti/isItColdOutside
+    image: isItColdOutside
+    details: should i bring a jacket?
+  - name: gotta
+    description: RealmSwift, ChameleonFramework, SwipeCellKit
+    url: https://github.com/lahariganti/gotta
+    image: gotta
+    details: a to do list app that uses Realm CRUD
+  - name: chat
+    description: Firebase
+    url: https://github.com/lahariganti/chat
+    image: chat
+    details: uses Firebase relatime database
+  - name: diceIT
+    description: SceneKit, ARKit
+    url: https://github.com/lahariganti/diceIT
+    image: dice
+    details: roll a dice in AR, woah
+  - name: howLong
+    description: SceneKit, ARKit
+    url: https://github.com/lahariganti/howLong
+    image: long
+    details: measure in AR, woah
+  - name: 3DPokemon
+    description: SceneKit, ARKit
+    url: https://github.com/lahariganti/3DPokemon
+    image: pokemon
+    details: see your favorite pokemon in 3D
+  - name: notHotdog
+    description: CoreML, Vision
+    url: https://github.com/lahariganti/notHotdog
+    image: hotdog
+    details: image recognition app
+  - name: whatFlower
+    description: CoreML, CreateML, Vision
+    url: https://github.com/lahariganti/whatFlower
+    image: flower
+    details: image recognition app
+
 social:
   - service: github
     username: lahariganti
