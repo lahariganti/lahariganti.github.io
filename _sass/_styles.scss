@@ -8,12 +8,13 @@
 	&-menu {
 		text-align: left;
 		text-decoration: none !important;
-		a {
+		a {	
+			color: $lg-blue;
 			text-decoration: none;
 			border-bottom: none;
 		}
 		a:hover {
-			color: #328BB4;
+			color: $lg-blue;
 			background-color: transparent;;
 		}
 	}
@@ -48,6 +49,7 @@
 	&-footer {
 		font-size: 8pt;
 		a {	
+			color: $lg-blue;
 			border-bottom: none;
 		}
 		a:hover {
@@ -106,9 +108,25 @@
 	&-cards-cell {
 		padding-bottom: $spacing-unit;
 		padding-right: $spacing-unit;
+		a {
+			color: #328BB4;
+			border-bottom: 0px;
+		}
+		a:hover {
+			background-color: transparent;
+			color: #328BB4;
+		}
 	}
 
 	&-cards-text {
+		a {
+			color: $white;
+			border-bottom: 0px;
+		}
+		a:hover {
+			background-color: transparent;
+			color: #328BB4;
+		}
 		margin: 0;
 		font-weight: 100;
 		text-align: center;
@@ -125,6 +143,7 @@
 	&-card-header {
 		text-align: left;
 		a {
+			color: $white;
 			border-bottom: 0px;
 		}
 		a:hover {
@@ -134,6 +153,8 @@
 }
 
 
+
+// add-ons
 
 p, li {
 	font-weight: lighter;
@@ -148,7 +169,7 @@ p, li {
 	height: auto;
 	display: block;
 	margin: auto;
-	background-color: #ffffff;
+	background-color: $white;
 	padding: 20px;
 }
 
@@ -157,7 +178,7 @@ p, li {
 	height: auto;
 	display: block;
 	margin: auto;
-	background-color: #ffffff;
+	background-color: $white;
 	padding: 10px;
 }
 
