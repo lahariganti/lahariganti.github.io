@@ -35,17 +35,20 @@ ios_navigation:
 
 permalink: /404.html
 
-apps:
-  - name: isItColdOutside
-    description: CLLocation, openweather API
-    url: https://github.com/lahariganti/isItColdOutside
-    image: isItColdOutside
-    details: should i bring a jacket?
+onappstore:
   - name: gotta
     description: RealmSwift, ChameleonFramework, SwipeCellKit
     url: https://github.com/lahariganti/gotta
     image: gotta
     details: a to do list app that uses Realm CRUD
+    privacy_policy: We don't collect any data. Hence we do not store any data. 
+
+notonappstore:
+  - name: isItColdOutside
+    description: CLLocation, openweather API
+    url: https://github.com/lahariganti/isItColdOutside
+    image: isItColdOutside
+    details: should i bring a jacket?
   - name: chat
     description: Firebase
     url: https://github.com/lahariganti/chat
