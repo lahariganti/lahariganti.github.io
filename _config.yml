@@ -41,7 +41,8 @@ onappstore:
     url: https://github.com/lahariganti/gotta
     image: gotta
     details: a to do list app that uses Realm CRUD
-    privacy_policy: We don't collect any data. Hence we do not store any data. 
+    privacy_policy: /privacy_policy
+    support_url: /support_url
 
 notonappstore:
   - name: isItColdOutside
