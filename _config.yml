@@ -28,6 +28,8 @@ navigation:
     url: /index
   - text: whoami
     url: /whoami
+  - text: blob
+    url: /blob
 
 ios_navigation:
   - text: home
