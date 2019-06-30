@@ -195,3 +195,13 @@ p, li {
 	width: 200px;
 	height: auto;
 }
+
+td > a {
+	color: #87A176 !important;
+	text-decoration: none !important;
+	border-bottom: 0px !important;
+}
+
+td > a:hover {
+	background-color: transparent;
+}
