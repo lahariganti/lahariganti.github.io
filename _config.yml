@@ -39,50 +39,23 @@ permalink: /404.html
 
 onappstore:
   - name: gotta
-    description: RealmSwift, ChameleonFramework, SwipeCellKit
-    url: https://github.com/lahariganti/gotta
-    image: gotta
-    details: a to do list app that uses Realm CRUD
+    description: to-do list with Realm's CRUD
+    url: https://itunes.apple.com/app/id1465091180
     privacy_policy: /privacy_policy
     support_url: /support_url
 
-notonappstore:
-  - name: isItColdOutside
-    description: CLLocation, openweather API
-    url: https://github.com/lahariganti/isItColdOutside
-    image: isItColdOutside
-    details: should i bring a jacket?
-  - name: chat
-    description: Firebase
-    url: https://github.com/lahariganti/chat
-    image: chat
-    details: uses Firebase relatime database
-  - name: diceIT
-    description: SceneKit, ARKit
-    url: https://github.com/lahariganti/diceIT
-    image: dice
-    details: roll a dice in AR, woah
-  - name: howLong
-    description: SceneKit, ARKit
-    url: https://github.com/lahariganti/howLong
-    image: long
-    details: measure in AR, woah
-  - name: 3DPokemon
-    description: SceneKit, ARKit
-    url: https://github.com/lahariganti/3DPokemon
-    image: pokemon
-    details: see your favorite pokemon in 3D
-  - name: notHotdog
-    description: CoreML, Vision
-    url: https://github.com/lahariganti/notHotdog
-    image: hotdog
-    details: image recognition app
-  - name: whatFlower
-    description: CoreML, CreateML, Vision
-    url: https://github.com/lahariganti/whatFlower
-    image: flower
-    details: image recognition app
+recent:
+  - name: Portal
+    description: ContactsUI
+    url: https://github.com/lahariganti/Portal
+  - name: Zeus
+    description: MapKit
+    url: https://github.com/lahariganti/Zeus
+  - name: Minerva
+    description: Framework for caching
+    url: https://github.com/lahariganti/Minerva
 
+    
 webapps:
   - name: furierit
     description: automate trading
@@ -104,6 +77,13 @@ music:
     url: https://www.youtube.com/embed/nl7KPn6dDSg
 
 
+esp32:
+  - name: ESP32LEDBlink
+    server: https://github.com/lahariganti/ESP32LEDBlink/tree/master/ESP32LEDBlinkGATTServer
+    client: https://github.com/lahariganti/ESP32LEDBlink/tree/master/ESP32LEDBlink
+    description: GATT server & iOS client
+    demo: 
+
 social:
   - service: github
     username: lahariganti
@@ -111,8 +91,6 @@ social:
   - service: twitter
     username: lahariganti
     link: https://twitter.com/lahariganti
-
-
 
 # Plugins
 gems:

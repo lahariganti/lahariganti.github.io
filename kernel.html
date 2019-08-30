@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: kernel
+---
+
+<section class="apps">
+	<div class="grid t-hackcss-cards">
+		<ul>
+			{% for project in site.esp32 %}
+				<li>
+					<span>
+						<a href="{{ app.url }}" target="_blank">
+							{{ project.name }}
+						</a>
+						<p>
+							{{ project.description }}:
+							<a href="{{ project.server }}" target="_blank">server</a> |
+							<a href="{{ project.client }}" target="_blank">client</a>
+						</p>
+					</span>
+				</li>
+			{% endfor %}
+			
+		</ul>
+	</div>
+</section>

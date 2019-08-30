@@ -1,84 +1,47 @@
 ---
-layout: iOS
+layout: default
 permalink: apps
 ---
 
-<section>
-	<p>all clones built to learn specific components can be found <a href="">here</a><br>
-	(audible, facebook, twitter, instagram, tinder)</p>
-</section>
-
-<br>
-
-<h1>on appstore [WIP]</h1>
+<h1>on App Store</h1>
 <section class="apps">
- <div class="grid t-hackcss-cards">
-		{% for app in site.onappstore %}
-		<div class="cell -3of12 t-hackcss-cards-cell">
-			<div class="card">
-				<header class="card-header"> <a href="{{ app.url }}" title="{{ app.name }}" target="_blank">
-								 {{ app.name }}
-							 </a></header>
-				<div class="card-content">
-					<div class="inner">
-
-						{% if app.image %}
-						<img src="/images/{{ app.image }}.png" class="t-hackcss-cards-image"
-								 alt="{{ app.name }}"
-								 title="{{ app.name }}" / id="appIcon">
-						{% endif %}
-						<br>
-						<p class="t-hackcss-cards-text">{{ app.description }}</p>
-						<br>
-						<p class="t-hackcss-cards-link">
-							{{ app.details }}
-						</p>
-
-						<a href="{{ app.privacy_policy }}">Privacy Policy</a>
-						<a href="{{ app.support_url }}">Support URL</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		{% endfor %}
-
+	<div class="grid t-hackcss-cards">
+		<ul>
+			{% for app in site.onappstore %}
+				<li>
+					<span>
+						<a href="{{ app.url }}" target="_blank">
+							{{ app.name }}
+						</a>
+						: {{ app.description }}
+						| <a href="{{ app.privacy_policy }}" target="_blank">Privacy Policy</a>
+						| <a href="{{ app.support_url }}" target="_blank">Support URL</a>
+					</span>
+				</li>
+			{% endfor %}
+			
+		</ul>
 	</div>
 </section>
 
+<h1>recent projects</h1>
 <br>
-<br>
+<div>goal was to use native frameworks to build modular apps</div>
 
-<h1>not on appstore</h1>
 <section class="apps">
- <div class="grid t-hackcss-cards">
-		{% for app in site.notonappstore %}
-		<div class="cell -3of12 t-hackcss-cards-cell">
-			<div class="card">
-				<header class="card-header"> <a href="{{ app.url }}" title="{{ app.name }}" target="_blank">
-								 {{ app.name }}
-							 </a></header>
-				<div class="card-content">
-					<div class="inner">
-
-						{% if app.image %}
-						<img src="/images/{{ app.image }}.png" class="t-hackcss-cards-image"
-								 alt="{{ app.name }}"
-								 title="{{ app.name }}" / id="appIcon">
-						{% endif %}
-						<br>
-						<p class="t-hackcss-cards-text">{{ app.description }}</p>
-						<br>
-						<p class="t-hackcss-cards-link">
-							{{ app.details }}
-						</p>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-		{% endfor %}
-
+	<div class="grid t-hackcss-cards">
+		<ul>
+			{% for app in site.recent %}
+				<li>
+					<span>
+						<a href="{{ app.url }}" target="_blank">
+							{{ app.name }}
+						</a>
+						: {{ app.description }}
+					</span>
+				</li>
+			{% endfor %}
+			
+		</ul>
 	</div>
 </section>
