@@ -37,33 +37,6 @@ ios_navigation:
 
 permalink: /404.html
 
-onappstore:
-  - name: gotta
-    description: to-do list with Realm's CRUD
-    url: https://itunes.apple.com/app/id1465091180
-    privacy_policy: /privacy_policy
-    support_url: /support_url
-
-recent:
-  - name: Portal
-    description: ContactsUI
-    url: https://github.com/lahariganti/Portal
-  - name: Zeus
-    description: MapKit
-    url: https://github.com/lahariganti/Zeus
-  - name: Minerva
-    description: Framework for caching
-    url: https://github.com/lahariganti/Minerva
-
-    
-webapps:
-  - name: furierit
-    description: automate trading
-    url: https://github.com/lahariganti/furierit
-    image: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80
-    details: Ruby & R on Rails
-
-
 esp32:
   - name: ESP32LEDBlink
     server: https://github.com/lahariganti/ESP32LEDBlink/tree/master/ESP32LEDBlinkGATTServer
