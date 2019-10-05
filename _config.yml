@@ -63,19 +63,6 @@ webapps:
     image: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80
     details: Ruby & R on Rails
 
-music:
-  - name: commensalism
-    url: https://www.youtube.com/embed/r564NatJhIY
-
-  - name: suitcase
-    url: https://www.youtube.com/embed/uIPkSdZAoSo
-
-  - name: sound of rain 
-    url: https://www.youtube.com/embed/osnesslvDqo
-
-  - name: Oakland, CA, USA
-    url: https://www.youtube.com/embed/nl7KPn6dDSg
-
 
 esp32:
   - name: ESP32LEDBlink
