@@ -2,9 +2,6 @@
   	<hr/>
 	<div class="grid t-hackcss-sm-reversed-grid">
 		<div class="cell -12of12">
-			<span class="t-hackcss-social">
-			    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-			</span>
 		    {% for social in site.social %}
 		      {% assign template = social.service|prepend:"icon-"|append:".html" %}
 			<span class="t-hackcss-social">

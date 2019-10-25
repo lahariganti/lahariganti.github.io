@@ -9,28 +9,15 @@ sass:
 
 theme_mode: dark 
 
-email: gplahari@gmail.com
-
 navigation:
   - text: home
     url: /index
   - text: whoami
     url: /whoami
   - text: cross-network
-    url: /blob
-
-ios_navigation:
-  - text: home
-    url: /index
+    url: /crossnetwork
 
 permalink: /404.html
-
-esp32:
-  - name: ESP32LEDBlink
-    server: https://github.com/lahariganti/ESP32LEDBlink/tree/master/ESP32LEDBlinkGATTServer
-    client: https://github.com/lahariganti/ESP32LEDBlink/tree/master/ESP32LEDBlink
-    description: GATT server & iOS client
-    demo: 
 
 social:
   - service: github

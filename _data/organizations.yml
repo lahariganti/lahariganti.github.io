@@ -1,0 +1,78 @@
+- name: LEMMA
+  logo: lemmaLogo
+  link: https://lahariganti.github.io/lemma/
+  description: Human centered design
+  social:
+    - instagram: https://www.instagram.com/lemma-studio/?hl=en
+  details:
+    - platform: Native iOS Applications
+    - info: Development, UX, UI Design
+    - projects: 
+      - name: 
+      - links: 
+
+- name: CYBERIA
+  logo: cyberia
+  link: https://www.youtube.com/channel/UCA2VI0Se9l5KBMlqp5bfScQ/videos?view_as=subscriber
+  social:
+    - instagram: https://www.instagram.com/cyberia.io
+  description: Story telling through STEAM 
+  details:
+    - platform: STEM + Art
+    - info: 
+    - projects: 
+      - name: 
+      - links: 
+      - name: piExperiments (Code & Music)
+      - links: 
+          - name: Music
+          - href: https://soundcloud.com/lahari-ganti/sets/piexperiments
+
+          - name: Code
+          - href: https://github.com/lahariganti/piExperiments
+
+- name: KERNEL
+  logo: kernelLogo
+  link: https://www.instagram.com/kernel.io/?hl=en
+  social:
+    - instagram: https://www.instagram.com/kernel.io/?hl=en
+  description: Internet of Things
+  details:
+    - platform: Connect & Collect
+    - info: 
+    - projects:
+      - name:  iOS + Hardware
+      - links: 
+        - name: ESP32
+        - href: https://github.com/lahariganti/ESP32
+
+
+- name: MDD
+  logo: mddLogo
+  link: https://challenges.openideo.com/challenge/nike-design-with-grind/ideas/transforming-nike-grind-materials-re-used-coffee-grounds-and-fruit-waste-into-composite-materials-designed-for-end-use
+  social:
+    - instagram: https://www.instagram.com/materialdriven.design
+  description: Material driven product design
+  details: 
+    - platform: 
+    - info: 
+    - projects:
+      - name: 
+      - links: 
+        - name: 
+        - href: 
+
+- name: STEAMIT
+  logo: steamitLogo
+  link: https://www.instagram.com/steamit.io/?hl=en" target="_blank
+  social:
+    - instagram: https://www.instagram.com/steamit.io/?hl=en
+  description: Engage with tools of problem solving
+  details: 
+    - platform: 
+    - info: Educational organization, How to learn
+    - projects:
+      - name: 
+      - links: 
+        - name: 
+        - href:

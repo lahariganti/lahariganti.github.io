@@ -8,7 +8,8 @@ $spacer-tool:	   10px;
 $image-size:       50px;
 $icon-size:        15px;
 $white:		   	   #ffffff;
-$lg-blue:		   #328BB4;
+$lg-green:		   #697754;
+$black:		  	   #000000;
 
 
 $on-palm:          768px;
@@ -16,6 +17,7 @@ $on-palm:          768px;
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
+        text-align: center;
     }
 }
 

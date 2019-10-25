@@ -9,12 +9,13 @@
 		text-align: left;
 		text-decoration: none !important;
 		a {	
-			color: $lg-blue;
+			color: $lg-green;
 			text-decoration: none;
 			border-bottom: none;
 		}
+
 		a:hover {
-			color: $lg-blue;
+			color: $lg-green;
 			background-color: transparent;;
 		}
 	}
@@ -32,8 +33,7 @@
 		font-weight: light;
 	}
 
-	&-media-heading
-	{
+	&-media-heading {
 		font-size: 8pt;
 	}
 
@@ -49,9 +49,10 @@
 	&-footer {
 		font-size: 8pt;
 		a {	
-			color: $lg-blue;
+			color: $lg-green;
 			border-bottom: none;
 		}
+
 		a:hover {
 			background-color: transparent;
 		}
@@ -109,12 +110,15 @@
 		padding-bottom: $spacing-unit;
 		padding-right: $spacing-unit;
 		a {
-			color: #328BB4;
+			color: $lg-green;
 			border-bottom: 0px;
+			font-size: smaller;
 		}
+
 		a:hover {
-			background-color: transparent;
-			color: #328BB4;
+			color: $white;
+			padding: 3px;
+			background-color: $lg-green
 		}
 	}
 
@@ -123,10 +127,12 @@
 			color: $white;
 			border-bottom: 0px;
 		}
+
 		a:hover {
-			background-color: transparent;
-			color: #328BB4;
+			color: $white;
+
 		}
+
 		margin: 0;
 		font-weight: 100;
 		text-align: center;
@@ -143,7 +149,7 @@
 	&-card-header {
 		text-align: left;
 		a {
-			color: $white;
+			color: $white !important;
 			border-bottom: 0px;
 		}
 		a:hover {
@@ -152,7 +158,18 @@
 	}
 }
 
-// custom
+// custom 
+
+
+a {
+	color: $lg-green !important;
+	border-bottom: 0px;
+}
+
+a:hover {
+	background-color: transparent;
+	color: $white !important;
+}
 
 p, li {
 	font-weight: lighter;
@@ -162,16 +179,7 @@ p, li {
 	text-align: center;
 }
 
-#inode, #kernel, #mdd {
-	width: 120px;
-	height: auto;
-	display: block;
-	margin: auto;
-	background-color: $white;
-	padding: 20px;
-}
-
-#lemma, #cyberia, #steam {
+.logo {
 	width: 160px;
 	height: auto;
 	display: block;
@@ -192,14 +200,4 @@ p, li {
 #appIcon {
 	width: 200px;
 	height: auto;
-}
-
-td > a {
-	color: #87A176 !important;
-	text-decoration: none !important;
-	border-bottom: 0px !important;
-}
-
-td > a:hover {
-	background-color: transparent;
 }
