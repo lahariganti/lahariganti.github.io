@@ -5,9 +5,23 @@ layout: default
 <ul>
 {% for dataPoint in site.data.crossnetwork %}
   <li>
-	<a href="{{ dataPoint.link }}">
-	  {{ dataPoint.organization }}
-	</a>
+  	<div>
+  		<a href="{{ dataPoint.link }}" style="font-size: smaller;" target="_blank">
+	  		{{ dataPoint.organization }}
+		</a>
+
+		<span style="float: right; text-align: right; direction: rtl;">
+		{{ dataPoint.location }}
+		</span>	
+  	</div>
+
+	<div>
+		{{ dataPoint.title }}
+		<span style="float: right; text-align: right; direction: rtl; font-style: italic;">
+			{{ dataPoint.timeline }}
+		</span>
+
+	</div>
 
 	<p>
 		{{ dataPoint.description }}

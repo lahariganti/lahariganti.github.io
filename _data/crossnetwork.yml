@@ -1,10 +1,45 @@
-- organization: bioMASON
-  title: Materials Engineer
-  link: http://biomason.com/
-  description: Instituted aggregate blend predictive models for bio-fabricated building materials. Led the in-house material testing team and provided detailed reports with findings and implications. Trained technicians and apprentices, contributed heavily to the organization of the analytics laboratory via 5S and CI.
-
 - organization: NOVO
+  location: Durham, NC, USA
   title: Materials Engineering Lead
+  timeline: April 2018 - February 2019
   link: https://challenges.openideo.com/challenge/nike-design-with-grind/ideas/transforming-nike-grind-materials-re-used-coffee-grounds-and-fruit-waste-into-composite-materials-designed-for-end-use
-  description: Material Driven Design is a materials technology project as part of NOVO geared towards creating social impact powered by circular economy. In charge of engineering material systems with coffee "waste" for manufacturing energy efficient and cost effective everyday products.
+  description: |
+    Material Driven Design is a materials technology project as part of NOVO
+    geared towards creating social impact powered by circular economy.
+    In charge of engineering material systems with coffee "waste" for
+    manufacturing energy efficient and cost effective everyday products.
 
+- organization: bioMASON
+  location: Durham, NC, USA
+  title: Materials Engineer
+  timeline: June 2016 - April 2018
+  link: http://biomason.com/
+  description: |
+    Instituted aggregate blend predictive models for 
+    bio-fabricated building materials. Led the in-house material testing team and 
+    provided detailed reports with findings and implications. Trained technicians and 
+    apprentices, contributed heavily to the organization of the analytics laboratory via 5S and CI.
+
+- organization: Bulletproof Automotive
+  location: Hawthorne, CA, USA
+  title: Composites Engineering Intern
+  timeline: Aug 2015 - Dec 2015
+  link: http://www.bulletproofautomotive.com/
+  description: |
+    Bulletproof Automotive is a retail distributor of high-end tuning parts for cars. In collaboration with
+    the design lead, developed a no-drill and easy mount carbon fiber trunk lift key cover for the 2015 Scion
+    FRS thereby retaining the structural durability of the car. Implemented reusable vacuum membranes
+    for VARTM - decreased the production time by ~ 30%. Provided a better SOP for carbon fibre car seats -
+    decreased surface contamination by ~ 20% per part.
+
+- organization: Hydroflex
+  location: Oceanside, CA, USA
+  title: Engineering Intern
+  timeline: June 2015 - Aug 2015
+  link: http://www.hydroflex-surfboards.com/
+  description: |+
+    Hydroflex is a sporting goods company that develops and manufactures cutting edge surfboards and
+    skateboards. With continual feedback from professional surf boarders, initiated and
+    developed surfboard fins from bio-degradable waste and natural fibers. Under the mentorship of the
+    lead engineer, increased the overall operational efficiency by ~ 40% by executing Six Sigma. Collaborated
+    with suppliers and scheduled visits for demonstration of new composite manufacturing technologies.
