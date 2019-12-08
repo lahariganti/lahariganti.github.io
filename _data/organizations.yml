@@ -1,9 +1,9 @@
 - name: LEMMA
   logo: lemmaLogo
-  link: https://lahariganti.github.io/lemma/
+  link: https://lemma.myportfolio.com/work
   description: Human centered design
   social:
-    - instagram: https://www.instagram.com/lemma-studio/?hl=en
+    - instagram: 
   details:
     - platform: Native iOS Applications
     - info: Development, UX, UI Design
@@ -15,14 +15,12 @@
   logo: cyberia
   link: https://www.youtube.com/channel/UCA2VI0Se9l5KBMlqp5bfScQ/videos?view_as=subscriber
   social:
-    - instagram: https://www.instagram.com/cyberia.io
+    - instagram: 
   description: Story telling through STEAM 
   details:
     - platform: STEM + Art
     - info: 
     - projects: 
-      - name: 
-      - links: 
       - name: piExperiments (Code & Music)
       - links: 
           - name: Music
@@ -33,9 +31,9 @@
 
 - name: KERNEL
   logo: kernelLogo
-  link: https://www.instagram.com/kernel.io/?hl=en
+  link: 
   social:
-    - instagram: https://www.instagram.com/kernel.io/?hl=en
+    - instagram: 
   description: Internet of Things
   details:
     - platform: Connect & Collect
@@ -64,9 +62,9 @@
 
 - name: STEAMIT
   logo: steamitLogo
-  link: https://www.instagram.com/steamit.io/?hl=en" target="_blank
+  link: 
   social:
-    - instagram: https://www.instagram.com/steamit.io/?hl=en
+    - instagram: 
   description: Engage with tools of problem solving
   details: 
     - platform: 

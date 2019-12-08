@@ -8,16 +8,24 @@ layout: default
 			<div class="cell -3of12 t-hackcss-cards-cell">
 				<div class="card">
 					<header class="card-header t-hackcss-card-header">
-						<a target = '_blank' href="{{ organization.link }}"">
+						{% if organization.link != null %}
+							<a target = '_blank' href="{{ organization.link }}"">
+								{{ organization.name }}
+							</a>
+						{% else %}
 							{{ organization.name }}
-						</a>
+						{% endif %}
 					</header>
 
 					<div class="card-content">
 						<div class="inner">
-							<img src="/images/{{ organization.logo }}.png" class="logo">
+							<!-- <img src="/images/{{ organization.logo }}.png" class="logo"> -->
 							<p class="t-hackcss-cards-text">
-								<a href="{{ organization.social.instagram }}" target="_blank"> {{ organization.description }}</a>
+								{% if organization.social.instagram != null %}
+									<a href="{{ organization.social.instagram }}" target="_blank"> {{ organization.description }}</a>
+								{% else %}
+									{{ organization.description }}
+								{% endif %} 
 							</p>
 
 							{% if organization.details != null %}
@@ -34,10 +42,10 @@ layout: default
 									<div>
 										{% for project in detail.projects %}
 											<div>{{ project.name }}</div>
-											{% if project.links.size > 1 %}
+											{% if project.links != null %}
 												{% for link in project.links %}
-													<a href="{{link.href}}">
-														{{ link.name }}
+													<a href="{{ link.href }}" target="_blank">
+														{{ link.href }}
 													</a>
 												{% endfor %}
 											{% endif %}

@@ -135,7 +135,7 @@
 
 		margin: 0;
 		font-weight: 100;
-		text-align: center;
+		text-align: left;
 		font-weight: bolder;
 	}
 
@@ -149,11 +149,11 @@
 	&-card-header {
 		text-align: left;
 		a {
-			color: $white !important;
+			/*color: $white !important;*/
 			border-bottom: 0px;
 		}
 		a:hover {
-			background-color: transparent;
+			/*background-color: transparent;*/
 		}
 	}
 }

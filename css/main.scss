@@ -17,7 +17,7 @@ $on-palm:          768px;
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
-        text-align: center;
+        text-align: left;
     }
 }
 
