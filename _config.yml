@@ -1,35 +1,36 @@
+---
 title: Lahari Ganti
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 repository: https://github.com/lahariganti.github.io
-url: https://lahariganti.github.io 
-
+url: https://lahariganti.github.io
 markdown: kramdown
-
 sass:
   style: compressed
-
-theme_mode: dark 
-
+theme_mode: dark
 navigation:
-  - text: home
-    url: /index
-  - text: whoami
-    url: /whoami
-  - text: cross-network
-    url: /crossnetwork
-
-permalink: /404.html
-
+- text: home
+  url: "/index"
+- text: whoami
+  url: "/whoami"
+- text: cross-network
+  url: "/crossnetwork"
+permalink: "/404.html"
 social:
-  - service: github
-    username: lahariganti
-    link: https://github.com/lahariganti
-  - service: twitter
-    username: lahariganti
-    link: https://twitter.com/lahariganti
-
+- service: github
+  username: lahariganti
+  link: https://github.com/lahariganti
+- service: twitter
+  username: lahariganti
+  link: https://twitter.com/lahariganti
 gems:
-  - jekyll-seo-tag
-  - jekyll-assets
-  - bootstrap-sass
-  - uglifier
-
+- jekyll-seo-tag
+- jekyll-assets
+- bootstrap-sass
+- uglifier
