@@ -15,8 +15,6 @@ sass:
   style: compressed
 theme_mode: dark
 navigation:
-- text: home
-  url: "/index"
 - text: whoami
   url: "/whoami"
 - text: cross-network
